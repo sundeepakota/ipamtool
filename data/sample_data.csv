@@ -1,0 +1,44 @@
+subnet,location,comments
+10.0.4.0/24,Checkout Networks,Point of Sale (POS) systems
+10.0.5.0/24,Inventory Networks,Inventory tracking and management
+10.0.6.0/24,Employee Networks,Employee workstations and devices
+10.0.7.0/24,Customer Wi-Fi Networks,Public Wi-Fi for customers
+172.16.32.0/20,Warehouse Networks,Warehouse and inventory systems
+192.168.10.0/24,Delivery Networks,Delivery and logistics systems
+192.168.11.0/24,Security Networks,Security and surveillance systems
+192.168.12.0/24,Managerial Networks,Managerial offices and workstations
+192.168.13.0/24,Customer Service Networks,Customer service and support
+192.168.14.0/24,Handheld Networks,Handheld devices for store operations
+10.0.8.0/24,Refrigeration Networks,Refrigeration and temperature control
+10.0.9.0/24,Bakery Networks,Bakery operations and equipment
+10.0.10.0/24,Produce Networks,Produce department systems
+10.0.11.0/24,Deli Networks,Deli and prepared foods operations
+10.0.12.0/24,Meat Networks,Meat department systems
+10.0.13.0/24,Seafood Networks,Seafood department operations
+10.0.14.0/24,Pharmacy Networks,Pharmacy and healthcare systems
+10.0.15.0/24,Floral Networks,Floral department operations
+10.0.16.0/24,Cafe Networks,Cafe and seating area networks
+10.0.17.0/24,Bulk Foods Networks,Bulk foods department systems
+10.0.18.0/24,Self-Checkout Networks,Self-checkout stations
+10.0.19.0/24,Technology Networks,Technology and IT infrastructure
+10.0.20.0/24,Training Networks,Training and development systems
+10.0.21.0/24,Marketing Networks,Marketing and promotional systems
+10.0.22.0/24,Audio/Visual Networks,Audio and visual systems
+10.0.23.0/24,Human Resources Networks,Human resources and employee management
+10.0.24.0/24,Mobile App Networks,Mobile app and online ordering systems
+10.0.25.0/24,Events Networks,Special events and promotions
+10.0.26.0/24,Analytics Networks,Data analytics and reporting systems
+10.0.27.0/24,Music Networks,In-store music and announcements
+10.0.28.0/24,Recycling Networks,Recycling and waste management systems
+10.0.29.0/24,Sustainability Networks,Sustainability initiatives and monitoring
+10.0.30.0/24,Community Networks,Community engagement and outreach
+10.0.31.0/24,Customer Feedback Networks,Customer feedback and surveys
+10.0.32.0/24, Loyalty Program Networks,Customer loyalty program operations
+10.0.33.0/24,Online Ordering Networks,Online ordering and delivery services
+10.0.34.0/24,Social Media Networks,Social media and online presence
+10.0.35.0/24,Accessibility Networks,Accessibility and inclusivity initiatives
+10.0.36.0/24,Legal Networks,Legal and compliance systems
+10.0.37.0/24,Supply Chain Networks,Supply chain and logistics operations
+10.0.38.0/24,Finance Networks,Financial and accounting systems
+10.0.39.0/24,Vendor Networks,Vendor management and communications
+10.0.40.0/24,Executive Networks,Executive and leadership offices
