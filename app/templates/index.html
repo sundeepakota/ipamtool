@@ -1,35 +1,46 @@
-<!-- app/templates/index.html -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>IP Address Lookup</title>
+    <title>IPAM Lookup</title>
     <style>
         body {
-            font-family:'Trebuchet MS';
+            font-family: 'Trebuchet MS';
             background-color: #f9f9f9; /* Apple-like white color */
             margin: 0;
             display: flex;
             align-items: center;
             justify-content: center;
             height: 100vh;
+            flex-direction: column; /* Added to stack children vertically */
         }
-
+    
+        #container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+    
         form {
             text-align: center;
             background-color: #fff;
-            padding: 20px;
+            padding: 40px; /* Increased padding for a larger appearance */
             border-radius: 8px;
             box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px; /* Added margin-bottom for separation */
         }
 
+        form:hover {
+        box-shadow: 0 10px 15px rgba(2, 212, 244, 0.2); /* Change shadow on hover */
+        }
         label {
             font-size: 50px;
             display: block;
             margin-bottom: 10px;
         }
-
+    
         input {
             font-size: 16px;
             padding: 10px;
@@ -39,7 +50,7 @@
             border: 1px solid #ccc;
             border-radius: 4px;
         }
-
+    
         button {
             font-size: 16px;
             padding: 12px 20px;
@@ -48,18 +59,44 @@
             border: none;
             border-radius: 4px;
             cursor: pointer;
+            transition: background-color 0.3s ease; /* Added transition for smooth color change */
         }
-
+    
         button:hover {
             background-color: #357ae8;
         }
-    </style>
+    
+        #how-to-use {
+            text-align: center;
+            margin-top: 20px; /* Adjusted margin-top for space between sections */
+        }
+    
+        #how-to-use p {
+            text-align: left; /* Left-align text in paragraphs */
+            margin-bottom: 10px; /* Added margin-bottom for separation between paragraphs */
+        }
+        #header {
+            text-align: left;
+            font-size: 20px;
+            color: #0d62e9;
+            margin: 10px;
+        }
+    </style>    
 </head>
 <body>
-    <form action="/search" method="post">
-        <label for="search_query">Enter CIDR Notation:</label>
-        <input type="text" name="search_query" required>
-        <button type="submit">Search</button>
-    </form>
+    <div id="header">IPAM TOOL</div>
+    <div id="container">
+        <form action="/search" method="post">
+            <label for="search_query">Enter Your Search Here:</label>
+            <input type="text" name="search_query" required>
+            <button type="submit">Search</button>
+        </form>
+        <div id="how-to-use">
+            <h2>How to Use:</h2>
+            <p>&#8226; You can perform searches using CIDR notation (e.g., 192.168.1.0/24) to search for specific locations or comments.</p>
+            <p>&#8226; To search by location or comments, enter relevant keywords (e.g., Office, Data Center) in the search box.</p>
+            <p>&#8226; Note: For CIDR notation, use the format IP_ADDRESS/NETMASK_LENGTH (e.g., 192.168.1.0/24).</p>
+        </div>
+    </div>
 </body>
 </html>
