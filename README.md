@@ -11,11 +11,7 @@ The IP Address Lookup Tool is a simple web application built using Flask that al
 
 ## How to Use
 
-1. Clone the repository to your local machine.
-2. Install the required dependencies by running `pip install -r requirements.txt`.
-3. Run the Flask application using `python run.py`.
-4. Open your web browser and navigate to `http://localhost:5000`.
-5. Enter your search query in the provided form and click the "Search" button.
+TBD
 
 ## Requirements
 
